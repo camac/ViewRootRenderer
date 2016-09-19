@@ -1,0 +1,16 @@
+<theme extends="webstandard" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="platform:/plugin/com.ibm.designer.domino.stylekits/schema/stylekit.xsd">
+	
+	<resources>
+		<script src="js/loadfromthemebefore.js" clientSide="true" type="text/javascript/before"/> 
+		<script src="js/loadfromthemeafter.js" clientSide="true" type="text/javascript/after"/>
+	</resources>
+	
+	<control>
+		<name>ViewRoot</name>
+		<property>
+			<name>rendererType</name>
+			<value>com.gregorbyte.xsp.ViewRoot</value>
+		</property>
+	</control>
+	
+</theme>

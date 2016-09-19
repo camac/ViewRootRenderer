@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+
+	<xp:this.resources>
+		<xp:script src="js/loadedfrompagebefore.js" clientSide="true">
+			<xp:this.attrs>
+				<xp:attr name="encode-position" value="before"></xp:attr>
+			</xp:this.attrs>
+		</xp:script>
+		<xp:script src="js/loadedfrompageafter.js" clientSide="true">
+			<xp:this.attrs>
+				<xp:attr name="encode-position" value="after"></xp:attr>
+			</xp:this.attrs>
+		</xp:script>
+
+	</xp:this.resources>
+
+</xp:view>
